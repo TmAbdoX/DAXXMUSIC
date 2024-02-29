@@ -18,7 +18,6 @@ from DAXXMUSIC.utils.decorators.language import language, languageCB
 from DAXXMUSIC.utils.inline.stats import back_stats_buttons, stats_buttons
 from config import BANNED_USERS
 from DAXXMUSIC.utils.database import get_assistant, is_active_chat
-from DAXXMUSIC.utils.decorators.userbotjoin import UserbotWrapper
 from DAXXMUSIC.core.userbot import Userbot
 
 
