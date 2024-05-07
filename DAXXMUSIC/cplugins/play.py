@@ -5,25 +5,25 @@ import asyncio
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InputMediaPhoto, Message
 from pytgcalls.exceptions import NoActiveGroupCall
-from VIPMUSIC.utils.database import get_assistant
+from DAXXMUSIC.utils.database import get_assistant
 import config
-from VIPMUSIC import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
-from VIPMUSIC.core.call import VIP
-from VIPMUSIC.misc import SUDOERS
-from VIPMUSIC.utils.inline import panel_markup_clone
-from VIPMUSIC.utils import seconds_to_min, time_to_seconds
-from VIPMUSIC.utils.channelplay import get_channeplayCB
-from VIPMUSIC.utils.decorators.language import languageCB
-from VIPMUSIC.utils.decorators.play import CPlayWrapper
-from VIPMUSIC.utils.formatters import formats
-from VIPMUSIC.utils.inline import (
+from DAXXMUSIC import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
+from DAXXMUSIC.core.call import VIP
+from DAXXMUSIC.misc import SUDOERS
+from DAXXMUSIC.utils.inline import panel_markup_clone
+from DAXXMUSIC.utils import seconds_to_min, time_to_seconds
+from DAXXMUSIC.utils.channelplay import get_channeplayCB
+from DAXXMUSIC.utils.decorators.language import languageCB
+from DAXXMUSIC.utils.decorators.play import CPlayWrapper
+from DAXXMUSIC.utils.formatters import formats
+from DAXXMUSIC.utils.inline import (
     botplaylist_markup,
     livestream_markup,
     playlist_markup,
     slider_markup,
     track_markup,
 )
-from VIPMUSIC.utils.database import (
+from DAXXMUSIC.utils.database import (
     add_served_chat_clone,
     add_served_user_clone,
     blacklisted_chats,
@@ -31,10 +31,10 @@ from VIPMUSIC.utils.database import (
     is_banned_user,
     is_on_off,
 )
-from VIPMUSIC.utils.logger import play_logs
+from DAXXMUSIC.utils.logger import play_logs
 from config import BANNED_USERS, lyrical
 from time import time
-from VIPMUSIC.utils.extraction import extract_user
+from DAXXMUSIC.utils.extraction import extract_user
 
 # Define a dictionary to track the last message timestamp for each user
 user_last_message_time = {}
