@@ -79,7 +79,7 @@ async def clone_txt(client, message):
             )
     else:
         await message.reply_text(
-            "**Give Bot Token After /clone Command From @Botfather.**"
+            "**Give Bot Token After /clone Command. From @Botfather.**"
         )
 
 
