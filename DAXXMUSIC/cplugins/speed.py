@@ -1,13 +1,13 @@
 from pyrogram import filters, Client
 from pyrogram.types import Message
 
-from VIPMUSIC import app
-from VIPMUSIC.core.call import VIP
-from VIPMUSIC.misc import SUDOERS, db
-from VIPMUSIC.utils import AdminRightsCheck
-from VIPMUSIC.utils.database import is_active_chat, is_nonadmin_chat
-from VIPMUSIC.utils.decorators.language import languageCB
-from VIPMUSIC.utils.inline import close_markup, speed_markup
+from DAXXMUSIC import app
+from DAXXMUSIC.core.call import VIP
+from DAXXMUSIC.misc import SUDOERS, db
+from DAXXMUSIC.utils import AdminRightsCheck
+from DAXXMUSIC.utils.database import is_active_chat, is_nonadmin_chat
+from DAXXMUSIC.utils.decorators.language import languageCB
+from DAXXMUSIC.utils.inline import close_markup, speed_markup
 from config import BANNED_USERS, adminlist
 
 checker = []
