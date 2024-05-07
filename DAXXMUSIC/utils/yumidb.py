@@ -12,7 +12,6 @@ from DAXXMUSIC.misc import SUDOERS
 
 COMMANDERS = [ChatMemberStatus.ADMINISTRATOR, ChatMemberStatus.OWNER]
 
-from typing import Tuple
 
 async def user_has_permission(chat_title: str, chat_id: int, user_id: int, permission: str, bot=True) -> Tuple[bool, str]:
     
