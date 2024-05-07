@@ -2,14 +2,14 @@ from pyrogram import filters, Client
 from pyrogram.types import InlineKeyboardMarkup, Message
 
 import config
-from VIPMUSIC import YouTube, app
-from VIPMUSIC.core.call import VIP
-from VIPMUSIC.misc import db
-from VIPMUSIC.utils.database import get_loop
-from VIPMUSIC.utils.decorators import AdminRightsCheck
-from VIPMUSIC.utils.inline import close_markup, stream_markup, stream_markup2
-from VIPMUSIC.utils.stream.autoclear import auto_clean
-from VIPMUSIC.utils.thumbnails import get_thumb
+from DAXXMUSIC import YouTube, app
+from DAXXMUSIC.core.call import VIP
+from DAXXMUSIC.misc import db
+from DAXXMUSIC.utils.database import get_loop
+from DAXXMUSIC.utils.decorators import AdminRightsCheck
+from DAXXMUSIC.utils.inline import close_markup, stream_markup, stream_markup2
+from DAXXMUSIC.utils.stream.autoclear import auto_clean
+from DAXXMUSIC.utils.thumbnails import get_thumb
 from config import BANNED_USERS
 
 
