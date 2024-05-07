@@ -3,17 +3,17 @@ from typing import Union
 from pyrogram import filters, types, Client
 from pyrogram.types import InlineKeyboardMarkup, Message
 
-from VIPMUSIC import app
-from VIPMUSIC.utils import first_page, second_page
-from VIPMUSIC.utils.database import get_lang
-from VIPMUSIC.utils.decorators.language import LanguageStart, languageCB
-from VIPMUSIC.utils.inline.help import help_back_markup, private_help_panel
+from DAXXMUSIC import app
+from DAXXMUSIC.utils import first_page, second_page
+from DAXXMUSIC.utils.database import get_lang
+from DAXXMUSIC.utils.decorators.language import LanguageStart, languageCB
+from DAXXMUSIC.utils.inline.help import help_back_markup, private_help_panel
 from config import BANNED_USERS, START_IMG_URL, SUPPORT_CHAT
 from strings import get_string, helpers
-from VIPMUSIC.misc import SUDOERS
+from DAXXMUSIC.misc import SUDOERS
 from time import time
 import asyncio
-from VIPMUSIC.utils.extraction import extract_user
+from DAXXMUSIC.utils.extraction import extract_user
 
 # Define a dictionary to track the last message timestamp for each user
 user_last_message_time = {}
