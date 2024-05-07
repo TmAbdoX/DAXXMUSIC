@@ -1,6 +1,6 @@
 import asyncio
-from VIPMUSIC.misc import SUDOERS
-from VIPMUSIC.core.userbot import Userbot
+from DAXXMUSIC.misc import SUDOERS
+from DAXXMUSIC.core.userbot import Userbot
 from pyrogram import Client, filters
 from pyrogram.errors import UserAlreadyParticipant
 import asyncio
@@ -13,9 +13,9 @@ from pyrogram.errors import (
     UserAlreadyParticipant,
     UserNotParticipant,
 )
-from VIPMUSIC.utils.vip_ban import admin_filter
-from VIPMUSIC.utils.decorators.userbotjoin import UserbotWrapper
-from VIPMUSIC.utils.database import get_assistant, is_active_chat
+from DAXXMUSIC.utils.vip_ban import admin_filter
+from DAXXMUSIC.utils.decorators.userbotjoin import UserbotWrapper
+from DAXXMUSIC.utils.database import get_assistant, is_active_chat
 
 links = {}
 
