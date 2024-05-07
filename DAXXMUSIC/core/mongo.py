@@ -1,3 +1,4 @@
+
 from motor.motor_asyncio import AsyncIOMotorClient as _mongo_client_
 from pymongo import MongoClient
 from pyrogram import Client
@@ -6,7 +7,7 @@ import config
 
 from ..logging import LOGGER
 
-    _mongo_async_ = _mongo_client_(config.MONGO_DB_URI)
-    _mongo_sync_ = MongoClient(config.MONGO_DB_URI)
-    mongodb = _mongo_async_.DAXXMUSIC
-    pymongodb = _mongo_sync_.DAXXMUSIC
+_mongo_async_ = _mongo_client_(config.MONGO_DB_URI)
+_mongo_sync_ = MongoClient(config.MONGO_DB_URI)
+mongodb = _mongo_async_.DAXXMUSIC
+pymongodb = _mongo_sync_.DAXXMUSIC
