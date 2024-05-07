@@ -9,17 +9,17 @@ from pyrogram.types import InputMediaPhoto, Message
 from pytgcalls.__version__ import __version__ as pytgver
 
 import config
-from VIPMUSIC import app
-from VIPMUSIC.core.userbot import assistants
-from VIPMUSIC.misc import SUDOERS, mongodb
-from VIPMUSIC.plugins import ALL_MODULES
-from VIPMUSIC.utils.database import (
+from DAXXMUSIC import app
+from DAXXMUSIC.core.userbot import assistants
+from DAXXMUSIC.misc import SUDOERS, mongodb
+from DAXXMUSIC.plugins import ALL_MODULES
+from DAXXMUSIC.utils.database import (
     get_served_chats_clone,
     get_served_users_clone,
     get_sudoers,
 )
-from VIPMUSIC.utils.decorators.language import language, languageCB
-from VIPMUSIC.utils.inline.stats import back_stats_buttons, stats_buttons
+from DAXXMUSIC.utils.decorators.language import language, languageCB
+from DAXXMUSIC.utils.inline.stats import back_stats_buttons, stats_buttons
 from config import BANNED_USERS
 
 
