@@ -3,10 +3,10 @@ from pyrogram import Client, filters
 from pyrogram.errors import FloodWait
 from dotenv import load_dotenv
 import config
-from VIPMUSIC.core.userbot import Userbot
-from VIPMUSIC import app
+from DAXXMUSIC.core.userbot import Userbot
+from DAXXMUSIC import app
 from datetime import datetime
-from VIPMUSIC.utils.database import get_assistant
+from DAXXMUSIC.utils.database import get_assistant
 
 # Assuming Userbot is defined elsewhere
 
