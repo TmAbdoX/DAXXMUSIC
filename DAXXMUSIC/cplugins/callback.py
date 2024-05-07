@@ -7,13 +7,13 @@ from pyrogram.errors import (
     UserAlreadyParticipant,
     UserNotParticipant,
 )
-from VIPMUSIC.utils.database import get_assistant
+from DAXXMUSIC.utils.database import get_assistant
 from pyrogram import filters, Client
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
-from VIPMUSIC import YouTube, app
-from VIPMUSIC.core.call import VIP
-from VIPMUSIC.misc import SUDOERS, db
-from VIPMUSIC.utils.database import (
+from DAXXMUSIC import YouTube, app
+from DAXXMUSIC.core.call import VIP
+from DAXXMUSIC.misc import SUDOERS, db
+from DAXXMUSIC.utils.database import (
     get_active_chats,
     get_lang,
     get_upvote_count,
