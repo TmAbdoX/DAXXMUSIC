@@ -10,11 +10,11 @@ from pyrogram.errors.exceptions.bad_request_400 import (
     AccessTokenExpired,
     AccessTokenInvalid,
 )
-from DAXXMUSIC.utils.database import get_assistant
+from DAXXMUSIC.utils import get_assistant
 from config import API_ID, API_HASH
 from DAXXMUSIC import app
 from DAXXMUSIC.misc import SUDOERS
-from DAXXMUSIC.utils.database import get_assistant, clonebotdb
+from DAXXMUSIC.utils import get_assistant, clonebotdb
 from config import LOGGER_ID
 
 CLONES = set()
