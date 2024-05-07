@@ -1,16 +1,16 @@
 from pyrogram import filters, Client
 from pyrogram.types import Message
 
-from VIPMUSIC import app
-from VIPMUSIC.utils import extract_user, int_to_alpha
-from VIPMUSIC.utils.database import (
+from DAXXMUSIC import app
+from DAXXMUSIC.utils import extract_user, int_to_alpha
+from DAXXMUSIC.utils.database import (
     delete_authuser,
     get_authuser,
     get_authuser_names,
     save_authuser,
 )
-from VIPMUSIC.utils.decorators import AdminActual, language
-from VIPMUSIC.utils.inline import close_markup
+from DAXXMUSIC.utils.decorators import AdminActual, language
+from DAXXMUSIC.utils.inline import close_markup
 from config import BANNED_USERS, adminlist
 
 
