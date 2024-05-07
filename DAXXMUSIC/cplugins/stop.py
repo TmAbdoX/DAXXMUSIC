@@ -1,11 +1,11 @@
 from pyrogram import filters, Client
 from pyrogram.types import Message
 
-from VIPMUSIC import app
-from VIPMUSIC.core.call import VIP
-from VIPMUSIC.utils.database import set_loop
-from VIPMUSIC.utils.decorators import AdminRightsCheck
-from VIPMUSIC.utils.inline import close_markup
+from DAXXMUSIC import app
+from DAXXMUSIC.core.call import VIP
+from DAXXMUSIC.utils.database import set_loop
+from DAXXMUSIC.utils.decorators import AdminRightsCheck
+from DAXXMUSIC.utils.inline import close_markup
 from config import BANNED_USERS
 
 
