@@ -1,7 +1,7 @@
 import os
 import requests
 from random import randint
-from VIPMUSIC.utils.database import (
+from DAXXMUSIC.utils.database import (
     add_served_chat_clone,
     add_served_user_clone,
     blacklisted_chats,
@@ -18,7 +18,7 @@ from pyrogram.types import (
     InlineKeyboardMarkup,
     Message,
 )
-from VIPMUSIC.utils import close_markup
+from DAXXMUSIC.utils import close_markup
 from config import BANNED_USERS, SERVER_PLAYLIST_LIMIT
 from VIPMUSIC import Carbon, app
 from VIPMUSIC.utils.decorators.language import language, languageCB
@@ -27,7 +27,7 @@ from VIPMUSIC.utils.inline.playlist import (
     get_playlist_markup,
     warning_markup,
 )
-from VIPMUSIC.utils.pastebin import VIPBin
+from DAXXMUSIC.utils.pastebin import VIPBin
 import time
 import asyncio
 import yt_dlp
@@ -35,7 +35,7 @@ from youtube_search import YoutubeSearch
 from youtubesearchpython import VideosSearch
 from youtubesearchpython import SearchVideos
 
-from VIPMUSIC.utils.stream.stream import stream
+from DAXXMUSIC.utils.stream.stream import stream
 from typing import Dict, List, Union
 from time import time
 import asyncio
@@ -47,7 +47,7 @@ user_command_count = {}
 # Define the threshold for command spamming (e.g., 20 commands within 60 seconds)
 SPAM_THRESHOLD = 2
 SPAM_WINDOW_SECONDS = 5
-from VIPMUSIC.core.mongo import mongodb
+from DAXXMUSIC.core.mongo import mongodb
 
 
 playlistdbc = mongodb.playlistclone
