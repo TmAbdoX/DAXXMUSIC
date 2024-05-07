@@ -1,14 +1,14 @@
 from pyrogram import filters, Client
 from pyrogram.types import Message
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-from VIPMUSIC import app
-from VIPMUSIC.core.call import VIP
+from DAXXMUSIC import app
+from DAXXMUSIC.core.call import VIP
 
-from VIPMUSIC.utils.decorators import AdminRightsCheck
-from VIPMUSIC.utils.inline import close_markup
+from DAXXMUSIC.utils.decorators import AdminRightsCheck
+from DAXXMUSIC.utils.inline import close_markup
 from config import BANNED_USERS
-from VIPMUSIC import userbot
-from VIPMUSIC.core.mongo import mongodb, pymongodb
+from DAXXMUSIC import userbot
+from DAXXMUSIC.core.mongo import mongodb, pymongodb
 
 authdb = mongodb.adminauth
 authuserdb = mongodb.authuser
