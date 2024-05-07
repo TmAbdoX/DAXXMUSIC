@@ -1,10 +1,10 @@
 import requests
 import random
-from VIPMUSIC import app, userbot
-from VIPMUSIC.misc import SUDOERS
+from DAXXMUSIC import app, userbot
+from DAXXMUSIC.misc import SUDOERS
 from pyrogram import filters, Client
 from pyrogram.types import *
-from VIPMUSIC.utils.vip_ban import admin_filter
+from DAXXMUSIC.utils.yumi_ban import admin_filter
 
 
 vip_text = [
@@ -48,7 +48,7 @@ channel = ["channel"]
 # ========================================= #
 
 
-@Client.on_message(filters.command(["ip", "iyush"], prefixes=["V", "P"]) & admin_filter)
+@Client.on_message(filters.command(["izu", "izuka"], prefixes=["s", "S"]) & admin_filter)
 async def restriction_app(client: Client, message):
     reply = message.reply_to_message
     chat_id = message.chat.id
