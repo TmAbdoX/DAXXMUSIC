@@ -9,10 +9,10 @@ from pyrogram.enums import ChatType
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from youtubesearchpython.__future__ import VideosSearch
 import config
-from VIPMUSIC.misc import _boot_
-from VIPMUSIC.utils import bot_up_time
-from VIPMUSIC.plugins.sudo.sudoers import sudoers_list
-from VIPMUSIC.utils.database import (
+from DAXXMUSIC.misc import _boot_
+from DAXXMUSIC.utils import bot_up_time
+from DAXXMUSIC.plugins.sudo.sudoers import sudoers_list
+from DAXXMUSIC.utils.database import (
     add_served_chat_clone,
     add_served_user_clone,
     blacklisted_chats,
