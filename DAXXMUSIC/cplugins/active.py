@@ -2,9 +2,9 @@ from pyrogram import filters, Client
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 from unidecode import unidecode
 
-from VIPMUSIC import app
-from VIPMUSIC.misc import SUDOERS
-from VIPMUSIC.utils.database import (
+from DAXXMUSIC import app
+from DAXXMUSIC.misc import SUDOERS
+from DAXXMUSIC.utils.database import (
     get_active_chats,
     get_active_video_chats,
     remove_active_chat,
