@@ -4,9 +4,9 @@ from pyrogram import Client, filters
 from pyrogram.types import Message
 from pyrogram.raw.functions.messages import DeleteHistory
 
-from VIPMUSIC import app
-from VIPMUSIC.core.userbot import assistants
-from VIPMUSIC.utils.database import get_client
+from DAXXMUSIC import app
+from DAXXMUSIC.core.userbot import assistants
+from DAXXMUSIC.utils.database import get_client
 
 
 @Client.on_message(filters.command(["sg", "History"]))
