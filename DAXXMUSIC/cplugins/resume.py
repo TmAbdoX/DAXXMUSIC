@@ -2,7 +2,7 @@ from pyrogram import filters, Client
 from pyrogram.types import Message
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from DAXXMUSIC import app
-from DAXXMUSIC.core.call import VIP
+from DAXXMUSIC.core.call import DAXX
 
 from DAXXMUSIC.utils.decorators import AdminRightsCheck
 from DAXXMUSIC.utils.inline import close_markup
