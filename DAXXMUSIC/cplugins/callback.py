@@ -11,7 +11,7 @@ from DAXXMUSIC.utils.database import get_assistant
 from pyrogram import filters, Client
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
 from DAXXMUSIC import YouTube, app
-from DAXXMUSIC.core.call import VIP
+from DAXXMUSIC.core.call import DAXX
 from DAXXMUSIC.misc import SUDOERS, db
 from DAXXMUSIC.utils.database import (
     get_active_chats,
