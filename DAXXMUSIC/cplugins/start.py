@@ -79,9 +79,9 @@ async def start_pm(client: Client, message: Message, _):
     if len(message.text.split()) > 1:
         name = message.text.split(None, 1)[1]
         if name[0:4] == "help":
-            keyboard = first_page(_)
+            keyboard = help_pannel(_)
             return await message.reply_photo(
-                photo=config.START_IMG_URL,
+                random.choice(NEXI_VID),
                 caption=_["help_1"].format(config.SUPPORT_CHAT),
                 reply_markup=keyboard,
             )
