@@ -5,7 +5,7 @@ from pyrogram.enums import ChatType, ChatMemberStatus
 from pyrogram.errors import UserNotParticipant
 from pyrogram.types import ChatPermissions
 from DAXXMUSIC import app
-from DAXXMUSIC.utils.yumi_ban import admin_filter
+from DAXXMUSIC.utils.daxx_ban import admin_filter
 
 
 SPAM_CHATS = []
