@@ -18,7 +18,6 @@ from DAXXMUSIC.misc import db
 from DAXXMUSIC.utils.database import get_assistant, get_authuser_names, get_cmode
 from DAXXMUSIC.utils.decorators import ActualAdminCB, AdminActual, language
 from DAXXMUSIC.utils.formatters import alpha_to_int, get_readable_time
-from DAXXMUSIC.mongo.afkdb import LOGGERS
 from config import BANNED_USERS, adminlist, lyrical
 from dotenv import load_dotenv
 
