@@ -2,7 +2,7 @@ from pyrogram import filters, Client
 from pyrogram.types import Message
 
 from DAXXMUSIC import app
-from DAXXMUSIC.core.call import VIP
+from DAXXMUSIC.core.call import DAXX
 from DAXXMUSIC.misc import SUDOERS, db
 from DAXXMUSIC.utils import AdminRightsCheck
 from DAXXMUSIC.utils.database import is_active_chat, is_nonadmin_chat
