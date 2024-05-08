@@ -1,4 +1,4 @@
-from VIPMUSIC.misc import clonedb
+from DAXXMUSIC.misc import clonedb
 
 active = []
 stream = {}
