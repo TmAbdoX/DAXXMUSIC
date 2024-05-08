@@ -24,7 +24,8 @@ from DAXXMUSIC.utils.cdatabase import (
 
 from DAXXMUSIC.utils.decorators.language import LanguageStart
 from DAXXMUSIC.utils.formatters import get_readable_time
-from DAXXMUSIC.utils.inline import first_page, private_panel, start_panel
+from DAXXMUSIC.utils.inline import private_panel, start_panel
+from DAXXMUSIC.utils import help_pannel
 from config import BANNED_USERS
 from strings import get_string
 from DAXXMUSIC.utils.database import get_assistant
