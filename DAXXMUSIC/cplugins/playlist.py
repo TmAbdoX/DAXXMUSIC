@@ -20,9 +20,9 @@ from pyrogram.types import (
 )
 from DAXXMUSIC.utils import close_markup
 from config import BANNED_USERS, SERVER_PLAYLIST_LIMIT
-from VIPMUSIC import Carbon, app
-from VIPMUSIC.utils.decorators.language import language, languageCB
-from VIPMUSIC.utils.inline.playlist import (
+from DAXXMUSIC import Carbon, app
+from DAXXMUSIC.utils.decorators.language import language, languageCB
+from DAXXMUSIC.utils.inline.playlist import (
     botplaylist_markup,
     get_playlist_markup,
     warning_markup,
@@ -39,7 +39,7 @@ from DAXXMUSIC.utils.stream.stream import stream
 from typing import Dict, List, Union
 from time import time
 import asyncio
-from VIPMUSIC.utils.extraction import extract_user
+from DAXXMUSIC.utils.extraction import extract_user
 
 # Define a dictionary to track the last message timestamp for each user
 user_last_message_time = {}
