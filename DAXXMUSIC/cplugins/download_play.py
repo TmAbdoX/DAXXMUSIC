@@ -46,7 +46,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from pyrogram import filters, Client
 from youtubesearchpython import SearchVideos
 from yt_dlp import YoutubeDL
-from VIPMUSIC import app
+from DAXXMUSIC import app
 import wget
 
 # Define a dictionary to track the last query timestamp for each user
