@@ -2,7 +2,7 @@ from pyrogram import filters, Client
 from pyrogram.types import Message
 
 from DAXXMUSIC import YouTube, app
-from DAXXMUSIC.core.call import VIP
+from DAXXMUSIC.core.call import DAXX
 from DAXXMUSIC.misc import db
 from DAXXMUSIC.utils import AdminRightsCheck, seconds_to_min
 from DAXXMUSIC.utils.inline import close_markup
