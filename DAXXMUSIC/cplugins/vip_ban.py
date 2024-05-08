@@ -4,7 +4,7 @@ from DAXXMUSIC import app, userbot
 from DAXXMUSIC.misc import SUDOERS
 from pyrogram import filters, Client
 from pyrogram.types import *
-from DAXXMUSIC.utils.yumi_ban import admin_filter
+from DAXXMUSIC.utils.daxx_ban import admin_filter
 
 
 vip_text = [
