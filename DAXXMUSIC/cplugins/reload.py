@@ -13,7 +13,7 @@ from pyrogram import filters
 load_dotenv()
 
 from DAXXMUSIC import app
-from DAXXMUSIC.core.call import VIP
+from DAXXMUSIC.core.call import DAXX
 from DAXXMUSIC.misc import db
 from DAXXMUSIC.utils.database import get_assistant, get_authuser_names, get_cmode
 from DAXXMUSIC.utils.decorators import ActualAdminCB, AdminActual, language
