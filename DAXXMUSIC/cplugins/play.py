@@ -23,7 +23,10 @@ from DAXXMUSIC.utils.inline import (
 from DAXXMUSIC.utils.logger import play_logs
 from DAXXMUSIC.utils.stream.stream import stream
 from config import BANNED_USERS, lyrical
-
+from DAXXMUSIC.utils.cdatabase import (
+    add_served_chat_clone,
+    add_served_user_clone
+)
 
 @app.on_message(
    filters.command(["play", "vplay", "cplay", "cvplay", "playforce", "vplayforce", "cplayforce", "cvplayforce"] ,prefixes=["/", "!", "%", ",", "", ".", "@", "#"])
@@ -43,6 +46,7 @@ async def play_commnd(
     url,
     fplay,
 ):
+    await add_served_chat_clone(message.chat.id)
     mystic = await message.reply_text(
         _["play_2"].format(channel) if channel else _["play_1"]
     )
