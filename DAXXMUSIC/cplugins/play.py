@@ -8,7 +8,7 @@ from pytgcalls.exceptions import NoActiveGroupCall
 from DAXXMUSIC.utils.database import get_assistant
 import config
 from DAXXMUSIC import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
-from DAXXMUSIC.core.call import VIP
+from DAXXMUSIC.core.call import DAXX
 from DAXXMUSIC.misc import SUDOERS
 from DAXXMUSIC.utils.inline import panel_markup_clone
 from DAXXMUSIC.utils import seconds_to_min, time_to_seconds
