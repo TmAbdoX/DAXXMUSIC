@@ -10,7 +10,6 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from youtubesearchpython.__future__ import VideosSearch
 import config
 from DAXXMUSIC.misc import _boot_
-from DAXXMUSIC.utils import bot_up_time
 from DAXXMUSIC.plugins.sudo.sudoers import sudoers_list
 from DAXXMUSIC.utils.database import (   
     blacklisted_chats,
@@ -167,10 +166,10 @@ async def start_gp(client, message: Message, _):
         user_last_message_time[user_id] = current_time
 
     out = start_panel(_)
-    BOT_UP = await bot_up_time()
+    
     await message.reply_photo(
         photo=config.START_IMG_URL,
-        caption=_["start_1"].format(a.mention, BOT_UP),
+        caption=_["start_1"].format(a.mention),
         reply_markup=InlineKeyboardMarkup(out),
     )
     await add_served_chat_clone(message.chat.id)
