@@ -32,7 +32,7 @@ async def clone_txt(client, message):
                 API_ID,
                 API_HASH,
                 bot_token=bot_token,
-                plugins=dict(root="DAXXMUSIC.cplugin"),
+                plugins=dict(root="DAXXMUSIC.cplugins"),
             )
             await ai.start()
             bot = await ai.get_me()
@@ -136,7 +136,7 @@ async def restart_bots():
                 API_ID,
                 API_HASH,
                 bot_token=bot_token,
-                plugins=dict(root="DAXXMUSIC.cplugin"),
+                plugins=dict(root="DAXXMUSIC.cplugins"),
             )
             await ai.start()
             bot = await ai.get_me()
