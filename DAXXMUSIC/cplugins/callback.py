@@ -27,9 +27,9 @@ from DAXXMUSIC.utils.database import (
     is_muted,
     set_loop,
 )
-from VIPMUSIC.utils.decorators.language import languageCB
-from VIPMUSIC.utils.formatters import seconds_to_min
-from VIPMUSIC.utils.inline import (
+from DAXXMUSIC.utils.decorators.language import languageCB
+from DAXXMUSIC.utils.formatters import seconds_to_min
+from DAXXMUSIC.utils.inline import (
     close_markup,
     stream_markup,
     stream_markup_timer,
@@ -51,8 +51,8 @@ from VIPMUSIC.utils.inline import (
     queue_markup,
     panel_markup_1,
 )
-from VIPMUSIC.utils.stream.autoclear import auto_clean
-from VIPMUSIC.utils.thumbnails import get_thumb
+from DAXXMUSIC.utils.stream.autoclear import auto_clean
+from DAXXMUSIC.utils.thumbnails import get_thumb
 from config import (
     BANNED_USERS,
     SOUNCLOUD_IMG_URL,
