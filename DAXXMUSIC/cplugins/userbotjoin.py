@@ -13,7 +13,7 @@ from pyrogram.errors import (
     UserAlreadyParticipant,
     UserNotParticipant,
 )
-from DAXXMUSIC.utils.vip_ban import admin_filter
+from DAXXMUSIC.utils.daxx_ban import admin_filter
 from DAXXMUSIC.utils.decorators.userbotjoin import UserbotWrapper
 from DAXXMUSIC.utils.database import get_assistant, is_active_chat
 
